@@ -1,3 +1,17 @@
+**functionality left(Todos):**
+
+1> Develop protected API
+
+2> Manually make auth token non functional(Have DB of no longer active tokens that still have some time to live
+. Query provided token against The Blacklist on every authorized request)
+
+3> User signup using Phone No and OTP instead of username and password.
+
+4> Rate limit sign up api(using redis or guvava or netflix zull)
+
+
+
+
 ### User signup:
 
 Post: localhost:8080/api/v1/users/signup
